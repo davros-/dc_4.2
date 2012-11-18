@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" >
+  <project path="build" name="platform_build_4.2" remote="davros" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -343,5 +343,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
+  <project path="vendor" name="android_vendor" remote="davros" revision="master" />
 
 </manifest>
