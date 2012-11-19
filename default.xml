@@ -37,7 +37,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device" />
+  <project path="device/samsung/toro" name="device_samsung_toro_4.2" remote="davros" revision="jb42" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
   <project path="device/samsung/tuna" name="device_samsung_tuna_4.2" remote="davros" revision="jb4" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
@@ -343,7 +343,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="vendor" name="android_vendor" remote="davros" revision="master" />
-  <project path="vendor/Droid_Concepts" name="DC_vendor_4.2" remote="davros" revision="master" />
+  <project path="vendor" name="DC_vendor_4.2" remote="davros" revision="jb42" />
 
 </manifest>
