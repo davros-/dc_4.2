@@ -344,5 +344,6 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="jb42" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="davros" revision="jb42" />
 
 </manifest>
