@@ -359,7 +359,7 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="jb42" />
-  <project path="vendor/samsung" name="platform_vendor_samsung" remote="davros" revision="jb42" />
+  <project path="vendor/samsung" name="platform_vendor_samsung" remote="davros" revision="jb422" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
