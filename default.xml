@@ -355,7 +355,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="platform/system/vold" />
+  <project path="system/vold" name="platform_system_vold" remote="davros" revision="jb422" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="jb42" />
