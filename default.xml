@@ -39,7 +39,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="davros" revision="jb42" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="davros" revision="jb42" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" revision="refs/tags/android-4.2.1_r1.2" />
