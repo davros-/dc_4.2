@@ -7,7 +7,7 @@
   <remote name="davros"
            fetch="git://github.com/davros-/" />
   <remote  name="chris"
-           review="https://github.com/DEMENTED-Droid/" />
+           fetch="https://github.com/DEMENTED-Droid/" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />  
