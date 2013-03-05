@@ -38,7 +38,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="davros" revision="db42" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="chris" revision="db42" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="davros" revision="jb42" />
@@ -362,7 +362,7 @@
   <project path="system/vold" name="platform_system_vold" remote="davros" revision="jb422" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="vendor/lge/mako" name="vendor_lge" remote="davros" revision="db42" />
+  <project path="vendor/lge/mako" name="vendor_lge" remote="chris" revision="db42" />
   <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="jb42" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="davros" revision="jb422" />
 
