@@ -258,7 +258,6 @@
   <project path="libcore" name="android_libcore" remote="davros" revision="cm-10.1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="davros" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="davros" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
