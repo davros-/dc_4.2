@@ -205,6 +205,11 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
+
+ <!-- Koush Superuser -->
+  <project path="external/koush/Superuser" name="koush_Superuser" remote="davros" revision="jb422" />
+  <project path="external/koush/Widgets" name="koush_Widgets" remote="davros" revision="jb422" />
+
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.1" />
   <project path="frameworks/base" name="frameworks_base" remote="davros" revision="jb422"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
@@ -354,7 +359,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="android_system_core" remote="davros" revision="jb42" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="system/extras" name="system_extras" remote="davros" revision="jb422" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
