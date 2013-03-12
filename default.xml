@@ -259,7 +259,7 @@
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="kernel/samsung/tuna" name="elite_kernelAOSP" remote="davros" revision="mr1-linux" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="chris" revision="db42" />
-  <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="chris" revision="db42" />
+  <project path="kernel/asus/grouper" name="elite_kernel_grouper" remote="davros" revision="jb422" />
   <project path="libcore" name="android_libcore" remote="davros" revision="cm-10.1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
