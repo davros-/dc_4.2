@@ -41,7 +41,7 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="chris" revision="db42" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="davros" revision="jb42" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="davros" revision="jb422" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="davros" revision="jb42" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="davros" revision="jb42" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="davros" revision="jb42-2" />
@@ -260,7 +260,6 @@
   <project path="kernel/samsung/tuna" name="elite_kernelAOSP" remote="davros" revision="mr1-linux" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="chris" revision="db42" />
   <project path="kernel/asus/grouper" name="elite_kernel_grouper" remote="davros" revision="jb422" />
-  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="chris" revision="db42" />
   <project path="libcore" name="android_libcore" remote="davros" revision="jb422" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
