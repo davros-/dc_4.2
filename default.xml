@@ -10,23 +10,36 @@
            fetch="https://github.com/cphelps76" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
-           review="review.cyanogenmod.com" />  
+           review="review.cyanogenmod.com" /> 
+  <remote  name="cmdev"
+           fetch="git://github.com/loosethisskin/" />
+  <remote  name="cr"
+           fetch="git://github.com/CarbonDev/" />
+  <remote  name="gh"
+           fetch="git://github.com/arco/" />
+  <remote  name="nc"
+           fetch="git://github.com/nocoast/" />
+  <remote  name="ub"
+           fetch="git://github.com/UnicornButter/" /> 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
 	   sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="platform_build_4.2" remote="davros" revision="jb42" >
+  <project path="build" name="android_build_s4" remote="davros" revision="s4" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform_android_bionic" remote="davros" revision="jb-4.2" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_dalvik" remote="davros" revision="jb42" />
-  <project path="development" name="platform/development" />
+  <project path="development" name="android_development" remote="davros" revision="s4" />
+
+
+  <!-- Devices -->
   <project path="device/asus/grouper" name="device_asus_grouper" remote="chris" revision="db42" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
   <project path="device/common" name="device/common" />
@@ -40,16 +53,23 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="chris" revision="db42" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="davros" revision="s4" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="davros" revision="s4" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="davros" revision="s4" />
+  <project path="device/samsung/jflteatt" name="/home/davros/android/S4Gits/device_samsung_jfltevzw" remote="davros" revision="s4" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="davros" revision="jb42" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="chris" revision="db42" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="davros" revision="jb42" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="davros" revision="jb42" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="davros" revision="jb42-2" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
+
+  <!-- External Packages -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
+  <project path="external/armzipalign" name="platform_external_armzipalign" remote="cr" revision="master" />
   <project path="external/android-clat" name="platform/external/android-clat" />
-  <project path="external/android-mock" name="platform/external/android-mock" />
+  <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="cm-10.1" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
@@ -64,20 +84,20 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
+  <project path="external/busybox" name="android_external_busybox" remote="cr" revision="jb2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="external_chromium" remote="ub" revision="jb-mr1" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="platform/external/clang" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/clang" name="android_external_clang" remote="nc" revision="cm-10.1-linaro" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="cm-10.1" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="cr" revision="jb2" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cmdev" revision="cm-10.1-linaro" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
