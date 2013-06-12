@@ -234,31 +234,34 @@
   <project path="external/koush/Superuser" name="koush_Superuser" remote="davros" revision="jb422" />
   <project path="external/koush/Widgets" name="koush_Widgets" remote="davros" revision="jb422" />
 
+  <!-- Frameworks Packages -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/base" name="frameworks_base" remote="davros" revision="jb422-e"/>
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
+  <project path="frameworks/base" name="frameworks_base" remote="davros" revision="s4"/>
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cr" revision="jb2" />
+  <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
-  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="ub" revision="jb-mr1" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="frameworks/ex" name="frameworks_ex" remote="cr" revision="jb2" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="android_frameworks_native" remote="davros" revision="jb422" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/emoji" name="android_frameworks_opt_emoji" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="davros" revision="jb42" />
-  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="davros" revision="cm-10.1" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" />
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cr" revision="jb2" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="cr" revision="jb2" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="nc" revision="cm-10.1-linaro" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="ub" revision="jb-mr1" />
   <project path="gdk" name="platform/gdk" />
+
+ <!-- Hardware Packages -->
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
