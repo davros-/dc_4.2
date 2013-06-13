@@ -56,7 +56,7 @@
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="davros" revision="s4" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="davros" revision="s4" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="davros" revision="s4" />
-  <project path="device/samsung/jflteatt" name="/home/davros/android/S4Gits/device_samsung_jfltevzw" remote="davros" revision="s4" />
+  <project path="device/samsung/jflteatt" name="device_samsung_jfltevzw" remote="davros" revision="s4" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="chris" revision="db42" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="davros" revision="jb42" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
