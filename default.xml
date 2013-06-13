@@ -412,7 +412,7 @@
   <!-- Vendor Packages -->
   <project path="vendor/asus" name="vendor_asus" remote="chris" revision="jb-mr1" />
   <project path="vendor/lge/mako" name="vendor_lge" remote="chris" revision="db42" />
-  <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="s4" />
+  <project path="vendor/Droid_Concepts" name="vendor_Droid_Concepts" remote="davros" revision="s4" />
   <project path="vendor/samsung" name="vendor_samsung" remote="davros" revision="s4" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
