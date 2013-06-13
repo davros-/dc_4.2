@@ -30,7 +30,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform_android_bionic" remote="davros" revision="jb-4.2" />
+  <project path="bionic" name="android_bionic_s4" remote="davros" revision="s4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
@@ -295,6 +295,7 @@
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="chris" revision="db42" />
   <project path="kernel/asus/grouper" name="elite_kernel_grouper" remote="davros" revision="jb422" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="chris" revision="db42" />
+  <project path="kernel/samsung/jf" name="DEMENTED_kernel_jf" remote="chris" revision="db42" />
   <project path="libcore" name="android_libcore" remote="davros" revision="jb422" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -402,16 +403,17 @@
   <project path="system/core" name="android_system_core" remote="davros" revision="s4" />
   <project path="system/extras" name="system_extras" remote="davros" revision="jb422" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.1" />
   <project path="system/security" name="system_security" remote="davros" revision="db42" />
   <project path="system/vold" name="platform_system_vold" remote="davros" revision="jb422" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
+
+  <!-- Vendor Packages -->
   <project path="vendor/asus" name="vendor_asus" remote="chris" revision="jb-mr1" />
   <project path="vendor/lge/mako" name="vendor_lge" remote="chris" revision="db42" />
-  <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="jb42" />
-  <project path="vendor/samsung" name="platform_vendor_samsung" remote="davros" revision="jb422" />
-
+  <project path="vendor/Droid_Concepts" name="vendor_toro" remote="davros" revision="s4" />
+  <project path="vendor/samsung" name="vendor_samsung" remote="davros" revision="s4" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
