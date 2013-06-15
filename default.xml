@@ -236,7 +236,7 @@
   <project path="external/koush/Widgets" name="koush_Widgets" remote="davros" revision="jb422" />
 
   <!-- Frameworks Packages -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/av" name="android_frameworks_av_s4" remote="davros" revision="s4" />
   <project path="frameworks/base" name="frameworks_base" remote="davros" revision="s4"/>
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cr" revision="jb2" />
   <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
