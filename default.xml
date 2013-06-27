@@ -247,33 +247,32 @@
   <project path="gdk" name="platform/gdk" />
 
  <!-- Hardware Packages -->
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="chris" revision="db42" />
-  <project path="hardware/invensense" name="android_hardware_invensense" remote="chris" revision="db42" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="chris" revision="db42" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="chris" revision="db42" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="chris" revision="db42" />
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="chris" revision="db42" />
-  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="chris" revision="db42" />
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="chris" revision="db42" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="chris" revision="db42" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="chris" revision="db42" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="chris" revision="db42" />
-  <project path="hardware/qcom/display-legacy" name="hardware_qcom_display-legacy" remote="chris" revision="db42" />
-  <project path="hardware/qcom/media-legacy" name="hardware_qcom_media-legacy" remote="chris" revision="db42" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="chris" revision="db42" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="chris" revision="db42" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="chris" revision="db42" />
-  <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="chris" revision="db42" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="chris" revision="db42" />
-  <project path="hardware/qcom/sensors" name="hardware_qcom_sensors" remote="chris" revision="db42" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="chris" revision="db42" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="chris" revision="db42" />
-  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="chris" revision="db42" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="chris" revision="db42" />
-  <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="chris" revision="db42" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="chris" revision="db42" />
-  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="chris" revision="db42" />
-  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="chris" revision="db42" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-10.1" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="ls" revision="jb2" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="ls" revision="jb2" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ls" revision="jb2" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
+  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.1" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="ts" revision="cm-10.1-linaro" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
 
   <!-- kernel packages -->
   <project path="kernel/samsung/tuna" name="elite_kernelAOSP" remote="davros" revision="mr1-linux" />
@@ -367,7 +366,6 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/arm" name="android_toolchain_4.4.3" remote="cr" revision="jb2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
