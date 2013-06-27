@@ -243,7 +243,7 @@
   <project path="frameworks/rs" name="android_frameworks_rs" remote="ts" revision="cm-10.1-linaro" />
   <project path="frameworks/support" name="android_frameworks_support" remote="ts" revision="cm-10.1-linaro" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="ts" revision="cm-10.1-linaro" />
+  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="ts" revision="cm-10.1-linaro" />
   <project path="gdk" name="platform/gdk" />
 
  <!-- Hardware Packages -->
