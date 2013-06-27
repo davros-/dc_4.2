@@ -11,16 +11,10 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" /> 
-  <remote  name="cmdev"
-           fetch="git://github.com/loosethisskin/" />
-  <remote  name="cr"
-           fetch="git://github.com/CarbonDev/" />
-  <remote  name="gh"
-           fetch="git://github.com/arco/" />
-  <remote  name="nc"
-           fetch="git://github.com/nocoast/" />
-  <remote  name="ub"
-           fetch="git://github.com/UnicornButter/" /> 
+  <remote  name="ls"
+           fetch="git://github.com/LiquidSmooth/" />
+  <remote  name="ts"
+           fetch="git://github.com/loosethisskin/" /> 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
 	   sync-c="true"
@@ -41,18 +35,7 @@
 
   <!-- Devices -->
   <project path="device/asus/grouper" name="device_asus_grouper" remote="chris" revision="db42" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
-  <project path="device/common" name="device/common" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
-  <project path="device/generic/common" name="device/generic/common" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="device/generic/mips" name="device/generic/mips" />
-  <project path="device/generic/x86" name="device/generic/x86" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device_lge_mako" remote="chris" revision="db42" />
-  <project path="device/sample" name="device/sample" />
+  <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="davros" revision="s4" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="davros" revision="s4" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="davros" revision="s4" />
@@ -61,7 +44,6 @@
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="davros" revision="s4" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="chris" revision="db42" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="davros" revision="jb42" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="device/samsung/maguro" name="device_samsung_maguro_s4" remote="davros" revision="s4" />
   <project path="device/samsung/toro" name="device_samsung_toro_s4" remote="davros" revision="s4" />
   <project path="device/samsung/tuna" name="device_samsung_tuna_s4" remote="davros" revision="s4" />
@@ -70,7 +52,6 @@
   <!-- External Packages -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
-  <project path="external/armzipalign" name="platform_external_armzipalign" remote="cr" revision="master" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="android_external_android-mock" remote="cm" revision="cm-10.1" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
@@ -87,25 +68,25 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/busybox" name="android_external_busybox" remote="cr" revision="jb2" />
+  <project path="external/busybox" name="android_external_busybox" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
-  <project path="external/chromium" name="external_chromium" remote="ub" revision="jb-mr1" />
+  <project path="external/chromium" name="external_chromium" remote="android_external_chromium" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="android_external_clang" remote="nc" revision="cm-10.1-linaro" />
-  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="cm" revision="cm-10.1" />
+  <project path="external/clang" name="android_external_clang" remote="ts" revision="cm-10.1-linaro" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="external_dnsmasq" remote="cr" revision="jb2" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
-  <project path="external/elfutils" name="android_external_elfutils" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="external/embunit" name="android_external_embunit" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/elfutils" name="android_external_elfutils" remote="ts" revision="cm-10.1-linaro" />
+  <project path="external/embunit" name="android_external_embunit" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
@@ -113,11 +94,11 @@
   <project path="external/fat32lib" name="platform/external/fat32lib" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
-  <project path="external/freetype" name="android_external_freetype" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/freetype" name="android_external_freetype" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" />
+  <project path="external/genext2fs" name="android_external_genext2fs" remote="ls" revision="jb2" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
@@ -165,13 +146,14 @@
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" />
-  <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/linux-tools-perf" name="android_external_linux-tools-perf" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="android_external_llvm" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/llvm" name="android_external_llvm" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
+  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-10.1" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
-  <project path="external/mesa3d" name="android_external_mesa3d" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/mesa3d" name="android_external_mesa3d" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
   <project path="external/mp4parser" name="platform/external/mp4parser" />
@@ -186,11 +168,11 @@
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="external_openssh" remote="ub" revision="jb-mr1" />
-  <project path="external/openssl" name="external_openssl" remote="ub" revision="jb-mr1" />
-  <project path="external/oprofile" name="platform_external_oprofile" remote="davros" revision="jb422" />
-  <project path="external/ping" name="external_ping" remote="ub" revision="jb-mr1" />
-  <project path="external/ping6" name="android_external_ping6" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/openssh" name="android_external_openssh" remote="ts" revision="cm-10.1-linaro" />
+  <project path="external/openssl" name="android_external_openssl" remote="ts" revision="cm-10.1-linaro" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="ls" revision="jb2" />
+  <project path="external/ping" name="android_external_ping" remote="ts" revision="cm-10.1-linaro" />
+  <project path="external/ping6" name="android_external_ping6" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
@@ -202,31 +184,31 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="android_external_skia" remote="cr" revision="jb2" />
+  <project path="external/skia" name="android_external_skia" remote="ls" revision="jb2" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="android_external_sqlite" remote="cm" revision="cm-10.1" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="external_stlport" remote="ub" revision="jb-mr1" />
+  <project path="external/stlport" name="android_external_stlport" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="android_external_tcpdump" remote="cmdev" revision="cm-10.1-linaro" />
+  <project path="external/tcpdump" name="android_external_tcpdump" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
-  <project path="external/v8" name="external_v8" remote="ub" revision="jb-mr1" />
+  <project path="external/v8" name="android_external_v8" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="android_external_webkit" remote="cr" revision="jb2" />
+  <project path="external/webkit" name="android_external_webkit" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cr" revision="jb2" />
-  <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cr" revision="jb2" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="ts" revision="cm-10.1-linaro" />
+  <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="ts" revision="cm-10.1-linaro" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
@@ -240,12 +222,12 @@
   <!-- Frameworks Packages -->
   <project path="frameworks/av" name="android_frameworks_av_s4" remote="davros" revision="s4" />
   <project path="frameworks/base" name="frameworks_base" remote="davros" revision="s4"/>
-  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="cr" revision="jb2" />
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="ts" revision="cm-10.1-linaro" />
   <project path="frameworks/compile/linkloader" name="android_frameworks_compile_linkloader" remote="cm" revision="cm-10.1" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
-  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="ub" revision="jb-mr1" />
-  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="cmdev" revision="cm-10.1-linaro" />
-  <project path="frameworks/ex" name="frameworks_ex" remote="cr" revision="jb2" />
+  <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" remote="ts" revision="cm-10.1-linaro" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="ts" revision="cm-10.1-linaro" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="ts" revision="cm-10.1-linaro" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="android_frameworks_native" remote="davros" revision="jb422" />
@@ -258,10 +240,10 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony_s4" remote="davros" revision="s4" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="cr" revision="jb2" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="nc" revision="cm-10.1-linaro" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="ts" revision="cm-10.1-linaro" />
+  <project path="frameworks/support" name="android_frameworks_support" remote="ts" revision="cm-10.1-linaro" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="ub" revision="jb-mr1" />
+  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="ts" revision="cm-10.1-linaro" />
   <project path="gdk" name="platform/gdk" />
 
  <!-- Hardware Packages -->
@@ -396,7 +378,7 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
   <project path="prebuilts/gcc/linux-x86/toolchain/linaro" name="Linaro_47x_toolchain" remote="davros" revision="master" />
-  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="cr" revision="jb2" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
