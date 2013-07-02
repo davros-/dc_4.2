@@ -261,7 +261,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="ls" revision="jb2" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="davros" revision="s4" />
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
@@ -385,7 +385,7 @@
   <!-- System Packages -->
   <project path="sdk" name="android_sdk" remote="cm" revision="cm-10.1" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="cm" revision="cm-10.1" />
-  <project path="system/core" name="system_core" remote="davros" revision="s4" />
+  <project path="system/core" name="system_core_s4" remote="davros" revision="s4" />
   <project path="system/extras" name="system_extras" remote="davros" revision="jb422" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.1" />
