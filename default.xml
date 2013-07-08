@@ -42,7 +42,7 @@
   <project path="device/samsung/jflteatt" name="device_samsung_jflteatt" remote="davros" revision="s4" />
   <project path="device/samsung/jfltetmo" name="device_samsung_jfltetmo" remote="davros" revision="s4" />
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="davros" revision="s4" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="chris" revision="db42" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="davros" revision="db42" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="davros" revision="jb42" />
   <project path="device/samsung/maguro" name="device_samsung_maguro_s4" remote="davros" revision="s4" />
   <project path="device/samsung/toro" name="device_samsung_toro_s4" remote="davros" revision="s4" />
